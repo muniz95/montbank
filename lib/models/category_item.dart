@@ -14,7 +14,7 @@ abstract class CategoryItem {
   final int id;
   final String name;
 
-  static CategoryItem fromJson(json, int categoryId) {
+  static dynamic fromJson(json, int categoryId) {
     var itemId = json['id'];
     var itemName = json['name'];
 
