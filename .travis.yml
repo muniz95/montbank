@@ -1,0 +1,28 @@
+os:
+  - linux
+sudo: false
+addons:
+  apt:
+    # Flutter depends on /usr/lib/x86_64-linux-gnu/libstdc++.so.6 version GLIBCXX_3.4.18
+    sources:
+      - ubuntu-toolchain-r-test # If we don't specify this, the libstdc++6 we get is the wrong version
+    packages:
+      - libstdc++6
+      - fonts-droid
+before_script:
+  - git clone https://github.com/flutter/flutter.git -b alpha --depth 1
+  - ./flutter/bin/flutter doctor
+script:
+  - ./flutter/bin/flutter test
+
+deploy:
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+      openssl aes-256-cbc -k $KEY_JKS_DECRYPT_PASSWORD -d -in android/encrypted-key.jks -out android/key.jks -md md5
+      openssl aes-256-cbc -k $KEY_PROPERTIES_DECRYPT_PASSWORD -d -in android/encrypted-key.properties -out android/key.properties -md md5
+      flutter build apk
+      ./deploy_android_to_dg.sh
+    fi
+
+cache:
+  directories:
+    - $HOME/.pub-cache

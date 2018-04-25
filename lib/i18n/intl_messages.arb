@@ -1,0 +1,85 @@
+{
+  "@@last_modified": "2018-01-30T00:19:56.025005",
+  "appName": "DroidKaigi 2018",
+  "@appName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "appDescription": "Feb,08 (Thu) - 09 (Fri)",
+  "@appDescription": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "allSessions": "All Sessions",
+  "@allSessions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mySchedule": "My Schedule",
+  "@mySchedule": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "map": "Map",
+  "@map": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "access": "Access",
+  "@access": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settings": "Settings",
+  "@settings": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sponsors": "Sponsors",
+  "@sponsors": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "questionnaire": "Quesionnaire",
+  "@questionnaire": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "about": "About",
+  "@about": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "day": "DAY{day}",
+  "@day": {
+    "type": "text",
+    "placeholders": {
+      "day": {}
+    }
+  },
+  "mapPlaceName": "Bellesalle Shinjuku Grand Conference Center",
+  "@mapPlaceName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mapMeetingRoomsName": "DroidKaigi 2018 Place",
+  "@mapMeetingRoomsName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mapAddress": "Sumitomo Fudosan Shinjuku Grand Tower 5F 8-17-1 Nishi Shinjuku, Shinjuku City, Tokyo 160-0023",
+  "@mapAddress": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mapNearbyStations": "Marunouchi subway line: 3 minutes walk from Nishi Shinjuku Station Gate No.1 Toei Oedo subway line: 7 minutes walk from Tochomae Station Gate E4 Toei Oedo subway line: 11 minutes walk from Shinjuku-Nishiguchi Station Gate D4 JR lines, Marunouchi/Toei Shinjuku/Toei Oedo subway line, Odakyu line, Keio line: 15 minutes walk from Shinjuku Station West Gate",
+  "@mapNearbyStations": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsShowPerformanceOverlay": "Show Performance Overlay",
+  "@settingsShowPerformanceOverlay": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
