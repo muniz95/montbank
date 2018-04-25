@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:droidkaigi2018/models/room.dart';
-import 'package:droidkaigi2018/repository/repository_factory.dart';
-import 'package:droidkaigi2018/ui/sessions/room_sessions_page.dart';
+import 'package:montbank/models/room.dart';
+import 'package:montbank/repository/repository_factory.dart';
+import 'package:montbank/ui/sessions/room_sessions_page.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

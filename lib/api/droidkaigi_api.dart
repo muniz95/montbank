@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:droidkaigi2018/models/room.dart';
-import 'package:droidkaigi2018/models/session.dart';
-import 'package:droidkaigi2018/models/speaker.dart';
+import 'package:montbank/models/room.dart';
+import 'package:montbank/models/session.dart';
+import 'package:montbank/models/speaker.dart';
 
 abstract class DroidKaigiApi {
   Future<Map<int, Session>> getSessions({bool refresh});

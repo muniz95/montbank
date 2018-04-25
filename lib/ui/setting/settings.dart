@@ -1,4 +1,4 @@
-import 'package:droidkaigi2018/i18n/strings.dart';
+import 'package:montbank/i18n/strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 

@@ -1,4 +1,4 @@
-import 'package:droidkaigi2018/models/level.dart';
+import 'package:montbank/models/level.dart';
 import 'package:flutter/widgets.dart';
 
 const String _icNiche = 'assets/ic_niche_cyan_20.png';

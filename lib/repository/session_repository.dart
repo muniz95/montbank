@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:droidkaigi2018/models/session.dart';
+import 'package:montbank/models/session.dart';
 
 abstract class SessionRepository {
   Future<List<Session>> findAll();

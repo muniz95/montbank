@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:droidkaigi2018/api/droidkaigi_api.dart';
-import 'package:droidkaigi2018/models/room.dart';
-import 'package:droidkaigi2018/repository/room_repository.dart';
+import 'package:montbank/api/droidkaigi_api.dart';
+import 'package:montbank/models/room.dart';
+import 'package:montbank/repository/room_repository.dart';
 
 class RoomRepositoryImpl implements RoomRepository {
   DroidKaigiApi _api;

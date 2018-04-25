@@ -1,5 +1,5 @@
-import 'package:droidkaigi2018/models/link.dart';
-import 'package:droidkaigi2018/models/session.dart';
+import 'package:montbank/models/link.dart';
+import 'package:montbank/models/session.dart';
 
 class Speaker {
   Speaker(

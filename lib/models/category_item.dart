@@ -1,7 +1,7 @@
-import 'package:droidkaigi2018/models/duration_type.dart';
-import 'package:droidkaigi2018/models/language.dart';
-import 'package:droidkaigi2018/models/level.dart';
-import 'package:droidkaigi2018/models/topic.dart';
+import 'package:montbank/models/duration_type.dart';
+import 'package:montbank/models/language.dart';
+import 'package:montbank/models/level.dart';
+import 'package:montbank/models/topic.dart';
 
 abstract class CategoryItem {
   const CategoryItem(this.id, this.name);

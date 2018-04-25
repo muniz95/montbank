@@ -1,10 +1,10 @@
-import 'package:droidkaigi2018/models/category_item.dart';
-import 'package:droidkaigi2018/models/duration_type.dart';
-import 'package:droidkaigi2018/models/language.dart';
-import 'package:droidkaigi2018/models/level.dart';
-import 'package:droidkaigi2018/models/room.dart';
-import 'package:droidkaigi2018/models/speaker.dart';
-import 'package:droidkaigi2018/models/topic.dart';
+import 'package:montbank/models/category_item.dart';
+import 'package:montbank/models/duration_type.dart';
+import 'package:montbank/models/language.dart';
+import 'package:montbank/models/level.dart';
+import 'package:montbank/models/room.dart';
+import 'package:montbank/models/speaker.dart';
+import 'package:montbank/models/topic.dart';
 
 class Session {
   const Session(

@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:droidkaigi2018/i18n/strings.dart';
-import 'package:droidkaigi2018/ui/map/marker.dart';
-import 'package:droidkaigi2018/ui/map/static_map_provider.dart';
+import 'package:montbank/i18n/strings.dart';
+import 'package:montbank/ui/map/marker.dart';
+import 'package:montbank/ui/map/static_map_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
