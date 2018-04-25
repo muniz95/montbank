@@ -11,8 +11,8 @@ const String _icTrain = 'assets/ic_train_orange_24.png';
 const String _icGoogleMap = 'assets/ic_googlemap.png';
 
 const _staticMapApiKey = "AIzaSyBM9V5LdnczVfAC9v6tbG0QanV8tE5lq48";
-const _lat = 35.6957954;
-const _lang = 139.69038920000003;
+const _lat = -25.428490;
+const _lang = -49.267027;
 
 const _placeUrl = 'https://www.google.com/maps?q=$_lat,$_lang';
 

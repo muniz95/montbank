@@ -4,13 +4,14 @@ import 'package:montbank/i18n/strings.dart';
 import 'package:montbank/theme.dart';
 import 'package:montbank/ui/drawer.dart';
 import 'package:montbank/ui/map/map.dart';
-import 'package:montbank/ui/myschedule/my_schedule.dart';
 import 'package:montbank/ui/page_container.dart';
 import 'package:montbank/ui/sessions/all_sessions.dart';
 import 'package:montbank/ui/setting/settings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+
+import 'home/HomePage.dart';
 
 class _MyLocalizationsDelegate extends LocalizationsDelegate<Strings> {
   const _MyLocalizationsDelegate();
@@ -106,12 +107,19 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         tickerProvider: this,
       ),
       new PageContainer(
-        title: Strings.of(context).mySchedule,
-        icon: new Icon(Icons.schedule),
+        title: Strings.of(context).home,
+        icon: new Icon(Icons.event_note),
         hasTab: false,
-        body: () => new MySchedulePage(),
+        body: () => new HomePage(),
         tickerProvider: this,
       ),
+      // new PageContainer(
+      //   title: Strings.of(context).mySchedule,
+      //   icon: new Icon(Icons.schedule),
+      //   hasTab: false,
+      //   body: () => new MySchedulePage(),
+      //   tickerProvider: this,
+      // ),
       new PageContainer(
         title: Strings.of(context).access,
         icon: new Icon(Icons.map),

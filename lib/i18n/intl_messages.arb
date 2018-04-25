@@ -10,6 +10,11 @@
     "type": "text",
     "placeholders": {}
   },
+  "home": "Home",
+  "@home": {
+    "type": "text",
+    "placeholders": {}
+  },
   "allSessions": "All Sessions",
   "@allSessions": {
     "type": "text",

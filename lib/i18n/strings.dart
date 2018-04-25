@@ -21,10 +21,11 @@ class Strings {
 
   static final Strings instance = new Strings();
 
-  String get appName => Intl.message("DroidKaigi 2018", name: "appName");
+  String get appName => Intl.message("MontBank Admin", name: "appName");
   String get appDescription =>
-      Intl.message("Feb,08 (Thu) - 09 (Fri)", name: "appDescription");
+      Intl.message("Manager", name: "appDescription");
   String get allSessions => Intl.message("All Sessions", name: "allSessions");
+  String get home => Intl.message("Home", name: "home");
   String get mySchedule => Intl.message("My Schedule", name: "mySchedule");
   String get map => Intl.message("Map", name: "map");
   String get access => Intl.message("Access", name: "access");
@@ -35,15 +36,15 @@ class Strings {
   String get about => Intl.message("About", name: "about");
   String day(int day) => Intl.message("DAY$day", name: "day", args: [day]);
   String get mapPlaceName =>
-      Intl.message("Bellesalle Shinjuku Grand Conference Center",
+      Intl.message("Praça Santos Andrade",
           name: "mapPlaceName");
   String get mapMeetingRoomsName =>
       Intl.message("DroidKaigi 2018 Place", name: "mapMeetingRoomsName");
   String get mapAddress => Intl.message(
-      "Sumitomo Fudosan Shinjuku Grand Tower 5F 8-17-1 Nishi Shinjuku, Shinjuku City, Tokyo 160-0023",
+      "Rua Alfredo Bufren / Praça Santos Andrade 2-102, Centro, Curitiba, Paraná",
       name: "mapAddress");
   String get mapNearbyStations => Intl.message(
-      "Marunouchi subway line: 3 minutes walk from Nishi Shinjuku Station Gate No.1 Toei Oedo subway line: 7 minutes walk from Tochomae Station Gate E4 Toei Oedo subway line: 11 minutes walk from Shinjuku-Nishiguchi Station Gate D4 JR lines, Marunouchi/Toei Shinjuku/Toei Oedo subway line, Odakyu line, Keio line: 15 minutes walk from Shinjuku Station West Gate",
+      "Consulte as linhas disponíveis",
       name: "mapNearbyStations");
 
   String get settingsShowPerformanceOverlay =>
