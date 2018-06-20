@@ -127,8 +127,7 @@ class _SessionsItemState extends State<SessionsItem> {
 
 }
 
-List<Widget> _createSpeakerRows(
-    List<Speaker> speakers, TextStyle speakerNameStyle) {
+List<Widget> _createSpeakerRows(List<Speaker> speakers, TextStyle speakerNameStyle) {
   return speakers.map((speaker) {
     return new Container(
       padding: const EdgeInsets.only(top: 8.0),

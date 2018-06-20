@@ -30,11 +30,11 @@ class StaticMapProvider {
       ..path = '/maps/api/staticmap';
 
     if (center == null && (locations == null || locations.length == 0)) {
-      center = Location.DROID_KAIGI_2018;
+      center = Location.MONTBANK;
     }
 
     if (locations == null || locations.length == 0) {
-      if (center == null) center = Location.DROID_KAIGI_2018;
+      if (center == null) center = Location.MONTBANK;
       finalUri.queryParameters = {
         'center': '${center.latitude},${center.longitude}',
         'zoom': zoomLevel.toString(),

@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:montbank/api/droidkaigi_api.dart';
+import 'package:montbank/api/montbank_api.dart';
 import 'package:montbank/models/session.dart';
 import 'package:montbank/repository/session_repository.dart';
 
 class SessionRepositoryImpl implements SessionRepository {
-  DroidKaigiApi _api;
+  MontbankApi _api;
 
   Map<int, Session> _cache = new Map();
 

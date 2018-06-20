@@ -39,7 +39,7 @@ class Strings {
       Intl.message("Praça Santos Andrade",
           name: "mapPlaceName");
   String get mapMeetingRoomsName =>
-      Intl.message("DroidKaigi 2018 Place", name: "mapMeetingRoomsName");
+      Intl.message("Montbank Place", name: "mapMeetingRoomsName");
   String get mapAddress => Intl.message(
       "Rua Alfredo Bufren / Praça Santos Andrade 2-102, Centro, Curitiba, Paraná",
       name: "mapAddress");

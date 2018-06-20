@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:montbank/api/droidkaigi_api.dart';
+import 'package:montbank/api/montbank_api.dart';
 import 'package:montbank/models/room.dart';
 import 'package:montbank/repository/room_repository.dart';
 
 class RoomRepositoryImpl implements RoomRepository {
-  DroidKaigiApi _api;
+  MontbankApi _api;
 
   Map<int, Room> _cache = new Map();
 

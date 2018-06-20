@@ -1,15 +1,15 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:montbank/api/droidkaigi_api.dart';
+import 'package:montbank/api/montbank_api.dart';
 import 'package:montbank/models/category_item.dart';
 import 'package:montbank/models/room.dart';
 import 'package:montbank/models/session.dart';
 import 'package:montbank/models/speaker.dart';
 import 'package:http/http.dart' as http;
 
-class DroidKaigiApiImpl implements DroidKaigiApi {
-  static const _BASE_URL = 'https://droidkaigi.jp/2018/sessionize';
+class MontbankApiImpl implements MontbankApi {
+  static const _BASE_URL = 'https://montbank.herokuapp.com/';
 
   var _categoryMap = new Map<int, Map<int, CategoryItem>>();
   var _roomMap = new Map<int, Room>();

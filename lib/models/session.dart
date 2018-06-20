@@ -37,7 +37,6 @@ class Session {
   final Language language;
 
   int getDay() {
-    // DroidKaigi is held on 2/8 (Thu), 2/9 (Fri)
     return startsAt.day == 8 ? 1 : 2;
   }
 

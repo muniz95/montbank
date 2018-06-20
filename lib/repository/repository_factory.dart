@@ -1,5 +1,5 @@
-import 'package:montbank/api/droidkaigi_api.dart';
-import 'package:montbank/api/droidkaigi_api_impl.dart';
+import 'package:montbank/api/montbank_api.dart';
+import 'package:montbank/api/montbank_api_impl.dart';
 import 'package:montbank/repository/favorite_repository.dart';
 import 'package:montbank/repository/favorite_repository_impl.dart';
 import 'package:montbank/repository/room_repository.dart';
@@ -14,8 +14,7 @@ class RepositoryFactory {
     return _singleton;
   }
 
-  DroidKaigiApi _api;
-
+  MontbankApi _api;
 
   SessionRepository _sessionRepository;
 
@@ -24,7 +23,7 @@ class RepositoryFactory {
   FavoriteRepository _favoriteRepository;
 
   RepositoryFactory._internal() {
-    _api = new DroidKaigiApiImpl();
+    _api = new MontbankApiImpl();
     _sessionRepository = new SessionRepositoryImpl(_api, new Map());
     _roomRepository = new RoomRepositoryImpl(_api, new Map());
     _favoriteRepository = new FavoriteRepositoryImpl(new Map());

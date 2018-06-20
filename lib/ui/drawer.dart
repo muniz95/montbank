@@ -12,8 +12,7 @@ class MyDrawer extends StatelessWidget {
     @required this.items,
     this.onTap,
     this.currentIndex: 0,
-  })
-      : super() {
+  }) : super() {
     assert(items != null);
     assert(0 <= currentIndex && currentIndex < items.length);
   }

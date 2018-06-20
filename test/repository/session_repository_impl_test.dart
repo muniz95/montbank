@@ -1,21 +1,21 @@
-import 'package:montbank/api/droidkaigi_api.dart';
+import 'package:montbank/api/montbank_api.dart';
 import 'package:montbank/models/room.dart';
 import 'package:montbank/models/session.dart';
 import 'package:montbank/repository/session_repository_impl.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 
-class MockDroidKaigiApi extends Mock implements DroidKaigiApi {}
+class MockMontbankApi extends Mock implements MontbankApi {}
 
 class MockSession extends Mock implements Session {}
 
 void main() {
-  DroidKaigiApi _api;
+  MontbankApi _api;
   Map<int, Session> _cache;
   SessionRepositoryImpl _subject;
 
   setUp(() {
-    _api = new MockDroidKaigiApi();
+    _api = new MockMontbankApi();
     _cache = new Map();
     _subject = new SessionRepositoryImpl(_api, _cache);
   });

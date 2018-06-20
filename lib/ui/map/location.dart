@@ -1,5 +1,5 @@
 class Location {
-  static const DROID_KAIGI_2018 =
+  static const MONTBANK =
       const Location(35.6957954, 139.69038920000003);
 
   final double latitude;

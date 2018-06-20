@@ -1,6 +1,6 @@
 {
   "@@last_modified": "2018-01-30T00:19:56.025005",
-  "appName": "DroidKaigi 2018",
+  "appName": "Montbank",
   "@appName": {
     "type": "text",
     "placeholders": {}
@@ -67,7 +67,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "mapMeetingRoomsName": "DroidKaigi 2018 Place",
+  "mapMeetingRoomsName": "Montbank Place",
   "@mapMeetingRoomsName": {
     "type": "text",
     "placeholders": {}
