@@ -5,6 +5,7 @@ import 'package:montbank/theme.dart';
 import 'package:montbank/ui/drawer.dart';
 import 'package:montbank/ui/map/map.dart';
 import 'package:montbank/ui/page_container.dart';
+import 'package:montbank/ui/savings/savings_page.dart';
 import 'package:montbank/ui/setting/settings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -109,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         title: 'Poupança',
         icon: new Icon(Icons.event_note),
         hasTab: false,
-        body: () => new HomePage(),
+        body: () => new SavingsPage(),
         tickerProvider: this,
       ),
       new PageContainer(
